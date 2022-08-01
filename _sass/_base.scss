@@ -1,0 +1,106 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: #292929;
+}
+
+.social {
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.page{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.75rem 0 1.5rem;
+
+    img{
+        height: 90px;
+        width: 90px;
+        border-radius: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.description{
+    padding: 0 1.25rem;
+    h2{
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+}
+
+
+.btn{
+    margin: 0 0.25rem;
+    background-color: #89ffdd;
+    border-color: #000000;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    transition: all .14s ease-out;
+
+    svg{
+        fill: #000000;
+        margin-right: 0.5rem;
+    }
+}
+    :hover.btn{
+        box-shadow: 0.25rem 0.25rem 0 0 black;
+        &:hover{transform: translate(-.25rem,-.25rem);}
+        }
+
+.ico-btn{
+    margin: 0.25rem;
+}
+
+
+.text-center {
+    text-align: center !important;
+   }
+
+* {
+  box-sizing: border-box;
+}
+
+.baseline-svg{
+    display: inline-flex;
+    align-self: center;
+    margin-right: 4px;
+    svg{
+        height: 1em;
+        width: 1em;
+        fill: currentColor;
+        top: .12em;
+        position: relative;
+    }
+}
+
+.section-heading{
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 0.25rem;
+}

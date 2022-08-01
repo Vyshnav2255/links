@@ -1,0 +1,10 @@
+$dark-300: #2c3032;
+$dark-600: #242526;
+$dark-900: #121212;
+
+[data-theme="dark"] {
+  body {
+    background-color: $dark-900;
+    color: #fff;
+  }
+}
