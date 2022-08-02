@@ -1,12 +1,22 @@
 title: Vyshnav Gangadharan
-author: Vyshnav Gangadharan
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   An UI/UX designer who loves Coding, Illustrating & creating 3D stuff
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+### Author Info ###
+author:
+  name              : Vyshnav Gangadharan
+  image             : /assets/avatar.png
+  Twitter           : vyshnav_xyz
+  Dribbble          : vyshnav_
+#  behance           : vyshnav_g
+# email             : vyshnav003@gmail.com
+  Github            : Vyshnav2255
+  Figma             : vyshnav
+  Linkedin          : vyshnav-gangadharan
+#  goodreads         : vyshnav
 
 exclude:
    - .sass-cache/

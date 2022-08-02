@@ -6,11 +6,16 @@ layout: default
     <div class="content-box">
         <div class="content">
             <div class="avatar">
-                <img src="/assets/avatar.png" alt="">
+                <img src="{{ site.author.image }}" alt="">
                 <h1>vyshnav.</h1>
             </div>
             <div class="description">
                 <h2> 🎨 Designer • ✏️ Illustrator • 💻 Developer</h2>
+            </div>
+            <div class="links">
+                {% include social-links.html %}
+                {% include links.html %}
+                {% include links-1.html %}
             </div>
         </div>
     </div>
