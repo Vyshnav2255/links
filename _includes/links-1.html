@@ -3,9 +3,8 @@
         <h3>Other Links</h3>
     </div>
     <div class="link">
-        <a class="btn" href="https://vyshnav.xyz/blog/">Blog</a>
-        <a class="btn" href="https://vyshnav.xyz/book-notes/">Book Notes</a>
-        <a class="btn" href="https://vyshnav.xyz/blog/tags#notion">Notion Products</a>
-        <a class="btn" href="https://shop.vyshnav.xyz/?tags=blender">Blender Store</a>
+        {% for item in site.data.links-1 %}
+        {% include elements/iconbtn.html %}
+        {% endfor %}
     </div>
 </div>
