@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 90px;
         border-radius: 3rem;
         margin-bottom: 1rem;
+        border: 1px solid #292929;
     }
 }
 
@@ -56,21 +57,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.links{
-    .section{
-        margin-bottom: 2rem;
-    }
-    .heading{
-        margin-bottom: 1rem;
-
-        h3{
-            font-size: 0.75rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            font-family: 'Space Grotesk', sans-serif;
-            letter-spacing: 0.25rem;
-        }
-    }
+.heading{
+    margin: 2rem 0 1rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 0.25rem;
+    color: #555761;
 }
 
 .social-links {
@@ -80,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0 1rem 0 1rem;
         display: inline;
         svg{
-            fill: #000000;
+            fill: #292929;
             height: 1.5rem;
             width: 1.5rem;
 
@@ -91,14 +85,20 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.links{
+    a{
+        display: block;
+    }
+}
+
 .btn{
-    width: 80%;
-    margin: 0 0.25rem;
-    border-color: #000000;
-    color: #000000;
+    width: 90%;
+    margin: 1rem auto;
+    border-color: #292929;
+    color: #292929;
     cursor: pointer;
     border-radius: 3rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
     transition: all .14s ease-out;
@@ -108,26 +108,16 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: .5rem;
     }
 
-    svg{
-        fill: #000000;
-        margin-right: 0.5rem;
-    }
-
     .btn-content{
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 }
     :hover.btn{
-        box-shadow: 0.25rem 0.25rem 0 0 black;
+        box-shadow: 0.25rem 0.25rem 0 0 #292929;
         &:hover{transform: translate(-.25rem,-.25rem);}
         }
-
-.link{
-    a{
-        margin: .5rem 1rem;
-    }
-}
 
 
 .text-center {
