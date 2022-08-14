@@ -3,6 +3,15 @@ body {
     color: #292929;
 }
 
+
+.text-center {
+    text-align: center !important;
+   }
+
+* {
+  box-sizing: border-box;
+}
+
 .page{
     width: 650px;
     margin: 0 auto;
@@ -42,10 +51,10 @@ body {
 
 .description{
     padding: 0 1.75rem;
-    margin-bottom: 1rem;
     h2{
         font-weight: 500;
         font-size: 1.25rem;
+        margin-bottom: 1rem;
 
         @media screen and (max-width: 768px) {
             font-size: 1rem;
@@ -113,18 +122,15 @@ body {
         &:hover{transform: translate(-.25rem,-.25rem);}
         }
 
-
-.text-center {
-    text-align: center !important;
-   }
-
-* {
-  box-sizing: border-box;
-}
-
 footer{
     margin-top: auto;
     padding: 1.5rem 0;
     display: block;
     text-align: center;
+}
+
+.branding{
+    path{
+      fill: #292929;
+    }
 }

@@ -1,0 +1,29 @@
+[data-theme="dark"] {
+  body {
+    background-color: #1a1a1a;
+    color: #d4d4d4;
+  }
+ 
+.branding{
+    path{
+      fill: #d4d4d4;
+    }
+}
+
+.btn{
+  border-color: #d4d4d4;
+  color: #d4d4d4;
+
+  &:hover{
+    box-shadow: 0.25rem 0.25rem 0 0 #d4d4d4;
+  }
+
+  svg{
+    fill: #d4d4d4;
+  }
+  
+  line, polyline{
+    stroke: #d4d4d4;
+  }
+  }    
+}
