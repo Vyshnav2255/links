@@ -130,6 +130,15 @@ footer{
 }
 
 .branding{
+    svg{
+        width: 140px;
+        height: auto;
+
+        @media screen and (max-width: 768px) {
+            width: 120px;
+        }
+            
+        }
     path{
       fill: #292929;
     }
