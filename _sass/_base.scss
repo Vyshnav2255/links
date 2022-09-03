@@ -111,16 +111,23 @@ body {
         margin-right: .5rem;
     }
 
+    svg{
+        fill: #292929;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
     .btn-content{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-}
-    :hover.btn{
+
+    &:hover{
         box-shadow: 0.25rem 0.25rem 0 0 #292929;
-        &:hover{transform: translate(-.25rem,-.25rem);}
-        }
+        transform: translate(-.25rem,-.25rem);
+    }
+}
 
 footer{
     margin-top: auto;
