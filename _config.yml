@@ -8,11 +8,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name              : Vyshnav Gangadharan
   image             : /assets/avatar.png
-  Twitter           : vyshnav_xyz
-  Figma             : vyshnav
-  Dribbble          : vyshnav_
-  Github            : Vyshnav2255
-  Linkedin          : vyshnav-gangadharan
+  twitter           : vyshnav_xyz
+  figma             : vyshnav
+  dribbble          : vyshnav_
+  github            : Vyshnav2255
+  linkedin          : vyshnav-gangadharan
 #  goodreads         : vyshnav
 
 sass:
