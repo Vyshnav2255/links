@@ -1,6 +1,6 @@
 body {
     font-family: 'Space Grotesk', sans-serif;
-    color: #292929;
+    color: #333333;
 }
 
 
@@ -45,7 +45,7 @@ body {
         width: 90px;
         border-radius: 3rem;
         margin-bottom: 1rem;
-        border: 1px solid #292929;
+        border: 1px solid #333333;
     }
 }
 
@@ -74,15 +74,20 @@ body {
 .social-links {
     a{
         text-decoration: none !important;
-        color: #292929;
-        margin: 0 1rem 0 1rem;
+        color: #333333;
+        padding: 1rem;
         display: inline;
+
         svg{
-            fill: #292929;
             height: 1.5rem;
             width: 1.5rem;
+        }
 
-            &:hover{
+        &:hover{
+            .svg-stroke{
+                stroke: #28bca3;
+            }
+            .svg-fill{
                 fill: #28bca3;
             }
         }
@@ -98,8 +103,8 @@ body {
 .btn{
     width: 90%;
     margin: 1rem auto;
-    border-color: #292929;
-    color: #292929;
+    border-color: #333333;
+    color: #333333;
     cursor: pointer;
     border-radius: 3rem;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
@@ -112,7 +117,7 @@ body {
     }
 
     svg{
-        fill: #292929;
+        fill: #333333;
         height: 1.5rem;
         width: 1.5rem;
     }
@@ -124,7 +129,7 @@ body {
     }
 
     &:hover{
-        box-shadow: 0.25rem 0.25rem 0 0 #292929;
+        box-shadow: 0.25rem 0.25rem 0 0 #333333;
         transform: translate(-.25rem,-.25rem);
     }
 }
@@ -147,6 +152,6 @@ footer{
             
         }
     path{
-      fill: #292929;
+      fill: #333333;
     }
 }

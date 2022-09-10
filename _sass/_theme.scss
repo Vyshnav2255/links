@@ -8,8 +8,13 @@
   }
 }
 
-.social-icon{
-  @include themed(fill, #292929, #d4d4d4);
+.social-links{
+  .svg-stroke{
+    @include themed(stroke, #333333, #d4d4d4);
+  }
+  .svg-fill{
+    @include themed(fill, #333333, #d4d4d4);
+  }
 }
 
 .heading{
