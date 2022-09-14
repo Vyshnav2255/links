@@ -4,6 +4,7 @@ All your links in one place.
 ## Tech Stack
 * Framework - [Jekyll](https://jekyllrb.com/)
 * Deployment - [Vercel](https://vercel.com/)
+* UI Design - [Figma](https://www.figma.com/community/file/1140170887273934289)
 
 ## Building & Running Locally
 
