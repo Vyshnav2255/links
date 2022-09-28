@@ -84,10 +84,7 @@ body {
         }
 
         &:hover{
-            .svg-stroke{
-                stroke: #28bca3;
-            }
-            .svg-fill{
+            svg{
                 fill: #28bca3;
             }
         }
