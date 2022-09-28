@@ -1,25 +1,25 @@
 [data-theme="dark"] {
   body {
-    background-color: #1a1a1a;
-    color: #d4d4d4;
+    background-color: $bg;
+    color: $white;
   }
  
 .branding{
     path{
-      fill: #d4d4d4;
+      fill: $white;
     }
 }
 
 .btn{
-  border-color: #d4d4d4;
-  color: #d4d4d4;
+  border-color: $border-dark;
+  color: $white;
 
   &:hover{
-    box-shadow: 0.25rem 0.25rem 0 0 #d4d4d4;
+    box-shadow: 0.25rem 0.25rem 0 0 $white;
   }
 
   svg{
-    fill: #d4d4d4;
+    fill: $white;
   }
   }    
 }

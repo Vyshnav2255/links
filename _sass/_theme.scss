@@ -10,12 +10,12 @@
 
 .social-links{
   svg{
-    @include themed(fill, #333333, #d4d4d4);
+    @include themed(fill, $black, $white);
   }
 }
 
 .heading{
-  @include themed(color, #555761, #abacae);
+  @include themed(color, $black-muted, $white-muted);
 }
 
 .link{
