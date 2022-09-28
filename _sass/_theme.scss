@@ -9,10 +9,7 @@
 }
 
 .social-links{
-  .svg-stroke{
-    @include themed(stroke, #333333, #d4d4d4);
-  }
-  .svg-fill{
+  svg{
     @include themed(fill, #333333, #d4d4d4);
   }
 }
