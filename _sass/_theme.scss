@@ -21,3 +21,9 @@
 .link{
   @include themed(color, #007367, #43d6b5);
 }
+
+.avatar{
+  img{
+    @include themed(border-color, $border-light, $border-dark);
+  }
+}
