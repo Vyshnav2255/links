@@ -4,6 +4,7 @@ description   : >- # this means to ignore newlines until "baseurl:"
 baseurl       : "" # the subpath of your site, e.g. /blog
 url           : "" # the base hostname & protocol for your site, e.g. http://example.com
 
+
 ### Author Info ###
 author:
   name              : Vyshnav Gangadharan
@@ -15,6 +16,13 @@ author:
   linkedin          : vyshnav-gangadharan
 #  goodreads         : vyshnav
   buy me a coffee   : vyshnav
+
+
+### Analytics ###
+analytics:
+  enabled: true
+  google:
+    tracking_id: G-GD7E2GW8RY
 
 sass:
     style: compressed
