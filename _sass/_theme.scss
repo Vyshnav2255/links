@@ -12,6 +12,14 @@
   svg{
     @include themed(fill, $black, $white);
   }
+
+  a{
+    &:hover{
+      svg{
+        @include themed(fill, #22c55e, #86efac);
+      }
+    }
+  }
 }
 
 .heading{
@@ -19,7 +27,7 @@
 }
 
 .link{
-  @include themed(color, #007367, #43d6b5);
+  @include themed(color, #15803d, #86efac);
 }
 
 .avatar{
