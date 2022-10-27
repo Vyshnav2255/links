@@ -4,6 +4,8 @@ description   : >- # this means to ignore newlines until "baseurl:"
   A UI/UX designer who loves Coding, Illustrating & creating 3D stuff
 baseurl       : "" # the subpath of your site, e.g. /blog
 url           : "" # the base hostname & protocol for your site, e.g. http://example.com
+keywords      : vyshnav,vg,vyshnav gangadharan, indian designer, uiux designer, illustrator, developer, notion, blender
+theme-color   : "#4ade80"
 
 
 ### Author Info ###
