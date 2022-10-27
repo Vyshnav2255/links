@@ -7,7 +7,7 @@ This is a custom alternative for Bio.link, Linktree, & Linkpop, where you are in
   - [Tech Stack](#tech-stack)
   - [Building & Running Locally](#building--running-locally)
   - [Quick deploy](#quick-deploy)
-  - [Social Media icons](#social-media-icons)
+  - [Social Media icons support](https://github.com/Vyshnav2255/links/issues/8)
   - [Support this Project](#support-this-project)
 
 ## Tech Stack
@@ -38,16 +38,6 @@ The site should now be available at http://0.0.0.0:4000/
 ## Quick deploy
 
 [![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/import/git?s=https://github.com/vyshnav2255/links) [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://app.netlify.com/start/deploy?repository=https://github.com/vyshnav2255/links)
-
-## Social Media icons
-| Title             |    Icon    | 
-| ---------         | ---------- |
-|  Twitter          |      ✅    |
-|  Dribbble         |      ✅    |
-|  Github           |      ✅    |
-|  Figma            |      ✅    | 
-|  Linkedin         |      ✅    | 
-|  Buy me a Coffee  |      ✅    |
 
 ## Support this Project
 
