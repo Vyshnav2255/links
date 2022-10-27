@@ -34,4 +34,7 @@
   img{
     @include themed(border-color, $border-light, $border-dark);
   }
+  h3{
+    @include themed(color, $black-muted, $white-muted);
+  }
 }
