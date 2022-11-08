@@ -9,9 +9,7 @@
 
     {% assign service_data = site.data.social-media[service_name] %}
     <a title="Follow me on {{ service_name }}" class="social" target="_blank" rel="noopener" href="{{ service_data.url }}{{ account[1] }}"
-       aria-label="{{ service_name }}">
-      {{ service_data.icon }}
-    </a>
+       aria-label="{{ service_name }}">{{ service_data.icon }}</a>
   
   {% endfor %}
 
