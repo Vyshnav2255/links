@@ -10,13 +10,13 @@
 
 .social-links{
   svg{
-    @include themed(fill, $black, $white);
+    @include themed(color, $black, $white);
   }
 
   a{
     &:hover{
       svg{
-        @include themed(fill, #22c55e, #86efac);
+        @include themed(color, #22c55e, #86efac);
       }
     }
   }
