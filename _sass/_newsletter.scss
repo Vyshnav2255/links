@@ -1,0 +1,27 @@
+.newsletter{
+    position: relative;
+    width: 90%;
+    margin: 1rem auto;
+
+    input{
+        width: 100%;
+        border: 1px solid;
+        border-radius: 3rem;
+        padding: .5rem .5rem .5rem 1rem;
+        min-height: 60px;
+        font-weight: 500;
+    }
+
+    button{
+        position: absolute;
+        right: 8px; 
+        top: 8px;
+        border: 0;
+        padding: 0.625rem;
+        border-radius: 3rem;
+        z-index: 2;
+        width: 44px;
+        height: 44px;
+        display: flex;
+    }
+}

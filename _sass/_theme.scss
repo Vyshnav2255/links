@@ -38,3 +38,16 @@
     @include themed(color, $black-muted, $white-muted);
   }
 }
+
+.newsletter{
+  input{
+    @include themed(color, $dark-700, $dark-300);
+    @include themed(background-color, $dark-100, $dark-800);
+    @include themed(border-color, $border-light, $border-dark);
+  }
+
+  button{
+    @include themed(color, $dark-900, $dark-900);
+    @include themed(background-color, $green-400, $green-300);
+  }
+}
