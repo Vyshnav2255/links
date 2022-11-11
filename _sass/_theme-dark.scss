@@ -1,6 +1,6 @@
 [data-theme="dark"] {
   body {
-    background-color: $bg;
+    background-color: $dark-900;
     color: $white;
   }
  
@@ -18,8 +18,8 @@
     box-shadow: 0.25rem 0.25rem 0 0 $white;
   }
 
-  svg{
-    fill: $white;
+  .arrow{
+    color: $white;
   }
   }    
 }
