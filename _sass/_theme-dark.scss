@@ -1,6 +1,6 @@
 [data-theme="dark"] {
   body {
-    background-color: $bg;
+    background-color: $dark-900;
     color: $white;
   }
  
@@ -19,7 +19,7 @@
   }
 
   svg{
-    fill: $white;
+    color: $white;
   }
   }    
 }
