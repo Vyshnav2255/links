@@ -55,11 +55,11 @@ body {
 }
 
 .description{
-    padding: 0 2rem;
     h2{
         font-weight: 500;
-        font-size: 1.25rem;
+        font-size: 1rem;
         margin-bottom: 1rem;
+        padding: 0 2rem;
 
         @media screen and (max-width: 768px) {
             font-size: 1rem;
