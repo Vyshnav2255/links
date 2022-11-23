@@ -1,4 +1,5 @@
 <a class="btn" href="{{ include.url | default: '#' }}" target="_blank" rel="noopener">
+    <div class="btn-content">
       <img src="{{ include.image }}"
       {% if include.image %}
       alt="{{ include.text }}"
@@ -9,5 +10,4 @@
     <span class="arrow">
       {% include svg/right-arrow.svg %}
     </span>
-  </div>
 </a>

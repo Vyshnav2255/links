@@ -89,12 +89,6 @@ body {
     }
 }
 
-.links{
-    a{
-        display: block;
-    }
-}
-
 .btn{
     width: 90%;
     margin: 1rem auto;
@@ -102,18 +96,23 @@ body {
     color: $black;
     cursor: pointer;
     border-radius: 3rem;
-    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
     font-weight: 500;
     transition: all .14s ease-out;
     min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     img{
-        height: 2.5rem;
+        height: 2rem;
         margin-right: .5rem;
+        display: flex;
+        align-items: center;
     }
 
     .arrow{
-        color: $dark-900;
+        color: $dark-500;
         height: 1.5rem;
         width: 1.5rem;
     }
