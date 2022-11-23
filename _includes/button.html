@@ -1,7 +1,9 @@
 <a class="btn" href="{{ include.url | default: '#' }}" target="_blank" rel="noopener">
-  <div class="btn-content">
-    <div class="btn-content">
-      <img src="{{ include.image }}" alt="{{ include.text }}">
+      <img src="{{ include.image }}"
+      {% if include.image %}
+      alt="{{ include.text }}"
+      {% endif %}
+      >
       <div>{{ include.text | default: "Button" }}</div>
     </div>
     <span class="arrow">
