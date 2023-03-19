@@ -77,6 +77,11 @@ body {
 }
 
 .social-links {
+    display: flex;
+    gap: .25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
     a{
         text-decoration: none !important;
         padding: .75rem;
