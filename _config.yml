@@ -11,6 +11,7 @@ theme-color   : "#4ade80"
 ### Author Info ###
 author:
   name              : Vyshnav Gangadharan
+  gravatar          : 7a7483bd1b6f579f86da0f3818b90758     # Gravatar md5 hash
   image             : /assets/avatar.png
   twitter           : vyshnav_xyz
   figma             : vyshnav

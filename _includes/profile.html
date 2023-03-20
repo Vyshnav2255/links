@@ -1,5 +1,18 @@
 <div class="avatar">
-    <img src="{{ site.author.image }}" alt="{{ site.author.name }}">
+    <img
+
+    {% if site.author.gravatar %}
+
+        src="https://www.gravatar.com/avatar/{{ site.author.gravatar }}?s=150&d=blank"
+        alt="Avatar for {{ site.author.name }}"
+
+    {% else %}
+
+    src="{{ site.author.image }}" alt="{{ site.author.name }}"
+
+    {% endif %}
+
+    >
     <h1 style="display: none;">{{ site.author.name }}</h1>
     <i class="branding">
         <svg width="120" height="26" viewBox="0 0 120 26" fill="none" xmlns="http://www.w3.org/2000/svg">
