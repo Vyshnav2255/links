@@ -131,8 +131,14 @@ body {
     }
 
     &:hover{
-        box-shadow: 0.25rem 0.25rem 0 0 $black;
-        transform: translate(-.25rem,-.25rem);
+        background-color: $green-100;
+        border-color: $green-500;
+        color: $dark-900;
+        transition: all .14s ease;
+
+        .arrow{
+            color: $dark-900;
+        }
     }
 }
 

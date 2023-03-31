@@ -15,7 +15,13 @@
   color: $white;
 
   &:hover{
-    box-shadow: 0.25rem 0.25rem 0 0 $white;
+    background-color: $green-900;
+    border-color: $green-400;
+    color: $dark-100;
+
+    .arrow{
+      color: $dark-100;
+  }
   }
 
   .arrow{
