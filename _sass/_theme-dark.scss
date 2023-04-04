@@ -1,18 +1,18 @@
 [data-theme="dark"] {
   body {
     background-color: $dark-900;
-    color: $white;
+    color: $dark-300;
   }
  
 .branding{
     path{
-      fill: $white;
+      fill: $dark-300;
     }
 }
 
 .btn{
-  border-color: $border-dark;
-  color: $white;
+  border-color: $dark-700;
+  color: $dark-300;
 
   &:hover{
     background-color: $green-900;
@@ -25,7 +25,7 @@
   }
 
   .arrow{
-    color: $white;
+    color: $dark-300;
   }
   }    
 }

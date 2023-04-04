@@ -99,8 +99,8 @@ body {
 .btn{
     width: 90%;
     margin: 1rem auto;
-    border-color: $border-light;
-    color: $black;
+    border-color: $dark-300;
+    color: $dark-700;
     cursor: pointer;
     border-radius: 3rem;
     padding: 0.5rem 1rem;
@@ -160,7 +160,7 @@ footer{
             
         }
     path{
-      fill: $black;
+      fill: $dark-700;
     }
 }
 

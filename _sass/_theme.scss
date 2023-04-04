@@ -10,7 +10,7 @@
 
 .social-links{
   svg{
-    @include themed(color, $black, $white);
+    @include themed(color, $dark-700, $dark-300);
   }
 
   a{
@@ -23,7 +23,7 @@
 }
 
 .heading{
-  @include themed(color, $black-muted, $white-muted);
+  @include themed(color, $dark-500, $dark-400);
 }
 
 .link{
@@ -32,10 +32,10 @@
 
 .avatar{
   img{
-    @include themed(border-color, $border-light, $border-dark);
+    @include themed(border-color, $dark-300, $dark-700);
   }
   h3{
-    @include themed(color, $black-muted, $white-muted);
+    @include themed(color, $dark-500, $dark-400);
   }
 }
 
@@ -43,7 +43,7 @@
   input{
     @include themed(color, $dark-700, $dark-300);
     @include themed(background-color, $dark-100, $dark-800);
-    @include themed(border-color, $border-light, $border-dark);
+    @include themed(border-color, $dark-300, $dark-700);
   }
 
   button{
