@@ -1,0 +1,23 @@
+.desk-container{
+    position: relative;
+
+    img{
+        width: 90%;
+        border-radius: 1.75rem;
+        border: 1px solid;
+        @include themed(border-color, $dark-300, $dark-700);
+    }
+    
+    &:hover .desk-hover{
+        opacity: 1;
+    }
+}
+.desk-setup{
+    content: url("/images/desk/desk.webp");
+}
+.desk-hover{
+    content: url("/images/desk/desk-hover.webp");
+    position: absolute;
+    opacity: 0;
+    transition: opacity .17s ease-in-out;
+}
