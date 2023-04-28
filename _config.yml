@@ -1,15 +1,18 @@
-title         : Vyshnav Gangadharan
-role          : Product Designer
-company       : Brainfish
-description   : >- # this means to ignore newlines until "baseurl:"
+title         : Vyshnav Gangadharan     # Add your name
+role          : Product Designer        # Add your role/position
+company       : Brainfish               # Add your company name
+
+
+description   : >-        # this means to ignore newlines until "baseurl:"
   A UI/UX designer who loves Coding, Illustrating & creating 3D stuff
-baseurl       : "" # the subpath of your site, e.g. /blog
-url           : "https://links.vyshnav.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl       : ""        # the subpath of your site, e.g. /blog
+url           : "https://links.vyshnav.xyz"       # the base hostname & protocol for your site, e.g. http://example.com
 keywords      : vyshnav,vg,vyshnav gangadharan, indian designer, uiux designer, illustrator, developer, notion, blender
-theme-color   : "#4ade80"
+theme-color   : "#4ade80"       # Used for browser theme-color meta tag
 
 gravatar      : 7a7483bd1b6f579f86da0f3818b90758     # Gravatar md5 hash
-image         : /assets/avatar.png
+image         : /assets/avatar.png                   # Add your avatar image src here
+branding      : true                                 # Your name will be replaced with your logo if set to true, change your logo here "_includes/svg/logo.svg"
 
 
 ### Author Info ###
@@ -34,7 +37,7 @@ author:
 analytics:
   enabled: true
   google:
-    tracking_id: G-GD7E2GW8RY
+    tracking_id: G-GD7E2GW8RY       #Add your Google analytics tracking ID here
 
 sass:
     style: compressed
