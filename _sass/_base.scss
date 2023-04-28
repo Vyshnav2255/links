@@ -48,6 +48,11 @@ body {
         border: 1px solid;
     }
 
+    h1{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
     h3{
         margin: .5rem 0 0;
         font-size: 1rem;
@@ -151,8 +156,8 @@ footer{
 
 .branding{
     svg{
-        width: 140px;
-        height: auto;
+        width: auto;
+        height: 1.75rem;
 
         @media screen and (max-width: 768px) {
             width: 120px;
