@@ -3,7 +3,7 @@
 
     {% if site.gravatar %}
 
-        src="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=150&d=blank"
+        src="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=200&d=blank"
         alt="Avatar for {{ site.author.name }}"
 
     {% else %}
@@ -15,11 +15,11 @@
     >
 
     {% if site.branding == true %}
-    <i class="branding">
-        {% include svg/logo.svg %}
-    </i>
+        <i class="branding">
+            {% include svg/logo.svg %}
+        </i>
     {% else %}
-    <h1>{{ site.author.name }}</h1>
+        <h1>{{ site.author.name }}</h1>
     {% endif %}
 
     <h3>{{ site.role }}{% if site.company %} @ {{ site.company }}{% endif %}</h3>
