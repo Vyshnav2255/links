@@ -1,5 +1,13 @@
-_site
-.sass-cache
-.jekyll-cache
+# Local Site Directories
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+.bundle/
+vendor/
+
+# optional for macs:
+.DS_Store
+
+
+Gemfile.lock
