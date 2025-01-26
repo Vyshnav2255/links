@@ -1,10 +1,10 @@
 title         : Vyshnav Gangadharan     # Add your name
-role          : Product Designer        # Add your role/position
+role          : 🧑‍🍳 Design Chef        # Add your role/position
 company       : Brainfish               # Add your company name
 
 
 description   : >-        # this means to ignore newlines until "baseurl:"
-  A UI/UX designer who loves Coding, Illustrating & creating 3D stuff
+  A a self-taught Product Designer, Illustrator & Developer. Currently shaping user experiences at Brainfish.
 baseurl       : ""        # the subpath of your site, e.g. /blog
 url           : "https://links.vyshnav.xyz"       # the base hostname & protocol for your site, e.g. http://example.com
 keywords      : vyshnav,vg,vyshnav gangadharan, indian designer, uiux designer, illustrator, developer, notion, blender
@@ -12,7 +12,7 @@ theme-color   : "#4ade80"       # Used for browser theme-color meta tag
 
 gravatar      : 7a7483bd1b6f579f86da0f3818b90758     # Gravatar md5 hash
 image         : /assets/avatar.png                   # Add your avatar image src here
-branding      : true                                 # Your name will be replaced with your logo if set to true, change your logo here "_includes/svg/logo.svg"
+branding      : false                                 # Your name will be replaced with your logo if set to true, change your logo here "_includes/svg/logo.svg"
 
 
 ### Author Info ###
@@ -20,10 +20,10 @@ author:
   name              : Vyshnav Gangadharan
   twitter           : vyshnav_xyz
   figma             : vyshnav
-  dribbble          : vyshnav_
+#  dribbble          : vyshnav_
+  layers            : vyshnav
   github            : Vyshnav2255
   linkedin          : vyshnav-gangadharan
-#  goodreads         : vyshnav
   buy me a coffee   : vyshnav
 #  youtube           : vyshnav
 #  facebook          : vyshnav
