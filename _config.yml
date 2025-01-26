@@ -35,9 +35,9 @@ author:
 
 ### Analytics ###
 analytics:
-  enabled: true
+  enabled: false
   google:
-    tracking_id: G-GD7E2GW8RY       #Add your Google analytics tracking ID here
+    tracking_id:       #Add your Google analytics tracking ID here
 
 sass:
     style: compressed
